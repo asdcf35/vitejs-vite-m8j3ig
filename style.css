@@ -1,7 +1,18 @@
 #nav {
   display: flex;
+  position: fixed;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100vw;
   height: 10vh;
+}
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 90vh;
+}
+#home > h2 {
+  width: 34ch;
 }
